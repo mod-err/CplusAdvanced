@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|solutionrelative:CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "01\u51FD\u6570\u6A21\u7248.cpp",
+              "DocumentMoniker": "E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
+              "RelativeDocumentMoniker": "CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
+              "ToolTip": "E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
+              "RelativeToolTip": "CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAqwMwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-19T02:58:02.055Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
