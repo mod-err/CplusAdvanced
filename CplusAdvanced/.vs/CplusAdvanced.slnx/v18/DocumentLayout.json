@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\",
+  "WorkspaceRootPath": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|solutionrelative:CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|solutionrelative:CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "02\u7C7B\u6A21\u677F.cpp",
+              "DocumentMoniker": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
+              "RelativeDocumentMoniker": "CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
+              "ToolTip": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
+              "RelativeToolTip": "CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-19T08:42:35.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "01\u51FD\u6570\u6A21\u7248.cpp",
-              "DocumentMoniker": "E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
+              "DocumentMoniker": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
               "RelativeDocumentMoniker": "CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
-              "ToolTip": "E:\\VisualStudio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
+              "ToolTip": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
               "RelativeToolTip": "CplusAdvanced\\01\u51FD\u6570\u6A21\u7248.cpp",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAqwMwAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAAJoAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-19T02:58:02.055Z",
               "EditorCaption": ""

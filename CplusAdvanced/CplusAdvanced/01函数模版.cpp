@@ -152,55 +152,55 @@
 //	myprint('a', 'b');
 //}
 
-#include <iostream>
-#include <string>
-using namespace std;
-
-class Person {
-public:
-	Person(string Name, int Age) : name(Name), age(Age){}
-
-	//Person(string name, int age) {
-	//	this->name = name;
-	//	this->age = age;
-	//}
-	bool operator==(Person& person) {
-		if (this->name == person.name && this->age == person.age) {
-			return true;
-		}
-		else {
-			return false;
-		}
-	}
-
-	string name;
-	int age;
-};
-
-template<typename T>
-bool compare(T& a, T& b) {
-	if (a == b) {
-		return true;
-	}
-	else {
-		return false;
-	}
-}
-//模版具体化重载
-template<> bool compare(Person& p1, Person& p2) {
-	if (p1.name == p2.name && p1.age == p2.age) {
-		return true;
-	}
-	else {
-		return false;
-	}
-}
-
-int main() {
-	Person p1("王悦", 18);
-	Person p2("王悦", 18);
-
-	cout << compare(p1, p2) << endl;
-	cout << p1.operator==(p2) << endl;
-	cout << (p1==p2) << endl;
-}
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//class Person {
+//public:
+//	Person(string Name, int Age) : name(Name), age(Age){}
+//
+//	//Person(string name, int age) {
+//	//	this->name = name;
+//	//	this->age = age;
+//	//}
+//	bool operator==(Person& person) {
+//		if (this->name == person.name && this->age == person.age) {
+//			return true;
+//		}
+//		else {
+//			return false;
+//		}
+//	}
+//
+//	string name;
+//	int age;
+//};
+//
+//template<typename T>
+//bool compare(T& a, T& b) {
+//	if (a == b) {
+//		return true;
+//	}
+//	else {
+//		return false;
+//	}
+//}
+////模版具体化重载
+//template<> bool compare(Person& p1, Person& p2) {
+//	if (p1.name == p2.name && p1.age == p2.age) {
+//		return true;
+//	}
+//	else {
+//		return false;
+//	}
+//}
+//
+//int main() {
+//	Person p1("王悦", 18);
+//	Person p2("王悦", 18);
+//
+//	cout << compare(p1, p2) << endl;
+//	cout << p1.operator==(p2) << endl;
+//	cout << (p1==p2) << endl;
+//}

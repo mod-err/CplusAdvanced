@@ -18,5 +18,8 @@
     <ClCompile Include="01函数模版.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="02类模板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
