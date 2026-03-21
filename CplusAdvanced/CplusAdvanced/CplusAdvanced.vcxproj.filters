@@ -24,6 +24,9 @@
     <ClCompile Include="person.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="03STLvector容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">

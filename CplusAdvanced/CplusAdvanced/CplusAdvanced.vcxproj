@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="01函数模版.cpp" />
     <ClCompile Include="02类模板.cpp" />
+    <ClCompile Include="03STLvector容器.cpp" />
     <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>

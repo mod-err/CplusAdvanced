@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|solutionrelative:CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\myarry.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|solutionrelative:CplusAdvanced\\myarry.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\03STLvector\u5BB9\u5668.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{90266B11-FD6B-4E5A-980A-66A0DD4EE561}|CplusAdvanced\\CplusAdvanced.vcxproj|solutionrelative:CplusAdvanced\\03STLvector\u5BB9\u5668.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "myarry.hpp",
-              "DocumentMoniker": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\myarry.hpp",
-              "RelativeDocumentMoniker": "CplusAdvanced\\myarry.hpp",
-              "ToolTip": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\myarry.hpp",
-              "RelativeToolTip": "CplusAdvanced\\myarry.hpp",
-              "ViewState": "AgIAADoAAAAAAAAAAAAgwFEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-20T07:55:16.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "02\u7C7B\u6A21\u677F.cpp",
-              "DocumentMoniker": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
-              "RelativeDocumentMoniker": "CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
-              "ToolTip": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
-              "RelativeToolTip": "CplusAdvanced\\02\u7C7B\u6A21\u677F.cpp",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
+              "Title": "03STLvector\u5BB9\u5668.cpp",
+              "DocumentMoniker": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\03STLvector\u5BB9\u5668.cpp",
+              "RelativeDocumentMoniker": "CplusAdvanced\\03STLvector\u5BB9\u5668.cpp",
+              "ToolTip": "E:\\Visual_Studio\\CplusAdvanced\\CplusAdvanced\\CplusAdvanced\\03STLvector\u5BB9\u5668.cpp",
+              "RelativeToolTip": "CplusAdvanced\\03STLvector\u5BB9\u5668.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-03-19T08:42:35.738Z",
+              "WhenOpened": "2026-03-21T00:53:44.886Z",
               "EditorCaption": ""
             }
           ]

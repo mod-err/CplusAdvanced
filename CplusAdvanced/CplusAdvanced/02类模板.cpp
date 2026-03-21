@@ -207,57 +207,57 @@
 //	showPerson(p);
 //}
 
-#include "myarry.hpp"
-
-class Person {
-	friend ostream& operator<<(ostream& cout, const Person& person);
-public:
-	Person() {}
-	Person(string Name, int Age) : name(Name), age(Age) {}
-	string name;
-	int age;
-};
-
-//重载<<运算符
-ostream& operator<<(ostream& cout, const Person& person) {
-	cout << person.name << " " << person.age;
-	return cout;
-}
-
-template<class T>
-void printMyArry(MyArry<T>& arr) {
-	cout << "数组的容量为：" << arr.getcapacity() << endl;
-	cout << "数组的大小为：" << arr.getsize() << endl;
-	for (int i = 0; i < arr.getcapacity(); i++) {
-		cout << arr[i] << endl;//arr.operator[](i)
-	}
-	cout << "------------------------------" << endl;
-}
-
-int main() {
-	//测试系统类型int
-	MyArry<int> arr(10);
-
-	for (int i = 0; i < arr.getcapacity(); i++) {
-		arr.pushback(i);
-	}
-
-	printMyArry(arr);
-
-	//尾删法删除数据
-	arr.popback();
-	printMyArry(arr);
-
-	//测试自定义数据类型Person类
-	MyArry<Person> arr1(5);
-
-	Person p1("孙悟空", 99);Person p2("猪八戒", 9);Person p3("唐三藏", 19);Person p4("沙和尚", 999);Person p5("白龙马", 29);
-
-	arr1.pushback(p1);arr1.pushback(p2);arr1.pushback(p3);arr1.pushback(p4);arr1.pushback(p5);
-
-	printMyArry(arr1);
-
-	//尾删法删除数据
-	arr1.popback();
-	printMyArry(arr1);
-}
+//#include "myarry.hpp"
+//
+//class Person {
+//	friend ostream& operator<<(ostream& cout, const Person& person);
+//public:
+//	Person() {}
+//	Person(string Name, int Age) : name(Name), age(Age) {}
+//	string name;
+//	int age;
+//};
+//
+////重载<<运算符
+//ostream& operator<<(ostream& cout, const Person& person) {
+//	cout << person.name << " " << person.age;
+//	return cout;
+//}
+//
+//template<class T>
+//void printMyArry(MyArry<T>& arr) {
+//	cout << "数组的容量为：" << arr.getcapacity() << endl;
+//	cout << "数组的大小为：" << arr.getsize() << endl;
+//	for (int i = 0; i < arr.getcapacity(); i++) {
+//		cout << arr[i] << endl;//arr.operator[](i)
+//	}
+//	cout << "------------------------------" << endl;
+//}
+//
+//int main() {
+//	//测试系统类型int
+//	MyArry<int> arr(10);
+//
+//	for (int i = 0; i < arr.getcapacity(); i++) {
+//		arr.pushback(i);
+//	}
+//
+//	printMyArry(arr);
+//
+//	//尾删法删除数据
+//	arr.popback();
+//	printMyArry(arr);
+//
+//	//测试自定义数据类型Person类
+//	MyArry<Person> arr1(5);
+//
+//	Person p1("孙悟空", 99);Person p2("猪八戒", 9);Person p3("唐三藏", 19);Person p4("沙和尚", 999);Person p5("白龙马", 29);
+//
+//	arr1.pushback(p1);arr1.pushback(p2);arr1.pushback(p3);arr1.pushback(p4);arr1.pushback(p5);
+//
+//	printMyArry(arr1);
+//
+//	//尾删法删除数据
+//	arr1.popback();
+//	printMyArry(arr1);
+//}
