@@ -24,7 +24,13 @@
     <ClCompile Include="person.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="03STLvector容器.cpp">
+    <ClCompile Include="03 vector容器初识.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="04 string容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05 vector容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

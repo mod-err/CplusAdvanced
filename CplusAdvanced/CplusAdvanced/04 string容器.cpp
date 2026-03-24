@@ -151,34 +151,77 @@
 //	}
 //}
 
-#include <iostream>
-#include <string>
+//#include <iostream>
+//#include <string>
+//
+//using namespace std;
 
-using namespace std;
+//void printstr(string& s) {
+//	for (int i = 0; i < s.size(); i++) {
+//		cout << s[i];
+//	}
+//	cout << endl;
+//}
 
-void printstr(string& s) {
-	for (int i = 0; i < s.size(); i++) {
-		cout << s[i];
-	}
-	cout << endl;
-}
+//void printstr(string* s) {
+//	for (int i = 0; i < (*s).size(); i++) {
+//		cout << (*s)[i];
+//	}
+//	cout << endl;
+//}
+//
+//
+//int main() {
+//	string s1 = "hello";
+//
+//	//通过[]读取字符串
+//	for (int i = 0; i < s1.size(); i++) {
+//		cout << s1[i];
+//	}
+//	cout << endl;
+//	//通过at()读取字符串
+//	for (int i = 0; i < s1.size(); i++) {
+//		cout << s1.at(i);
+//	}
+//	cout << endl;
+//
+//	//字符用''，字符串用""
+//	s1[0] = 'x';
+//	printstr(&s1);//xello
+//	s1.at(1) = 'x';
+//	printstr(&s1);//xxllo
+//}
 
-int main() {
-	string s1 = "hello";
+//#include <iostream>
+//#include <string>
+//
+//using namespace std;
+//
+//int main() {
+//	string s1 = "abcde";
+//	s1.insert(1, "111");
+//	cout << s1 << endl;//s1 = a111bcde
+//
+//	s1.erase(1, 3);//删除从第1号位置开始的3个字符
+//	cout << s1 << endl;//s1 = abcde
+//
+//	s1.insert(1, 3, '1');
+//	cout << s1 << endl;
+//}
 
-	//通过[]读取字符串
-	for (int i = 0; i < s1.size(); i++) {
-		cout << s1[i];
-	}
-	cout << endl;
-	//通过at()读取字符串
-	for (int i = 0; i < s1.size(); i++) {
-		cout << s1.at(i);
-	}
-	cout << endl;
-
-	s1[0] = 'x';
-	printstr(s1);
-	s1.at(1) = 'x';
-	printstr(s1);
-}
+//#include <iostream>
+//#include <string>
+//
+//using namespace std;
+//
+//int main() {
+//	string s1 = "zhangsan@163.com";
+//	string s2 = s1.substr(0, 8);
+//	cout << s2 << endl;
+//
+//	int pos = s1.find("@");
+//	cout << pos << endl;
+//	string s3 = s1.substr(0, pos);
+//	cout << s3 << endl;
+//
+//}
