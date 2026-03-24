@@ -165,66 +165,88 @@
 //	cout << "最后一个元素为：" << v.back() << endl;
 //}
 
+//#include <iostream>
+//#include <vector>
+//using namespace std;
+//
+//void printvec(vector<int>& v) {
+//	for (int i = 0; i < v.size(); i++) {
+//		cout << v[i] << " ";
+//	}
+//	cout << endl;
+//}
+//
+///*----------元素互换------------*/
+//void test1() {
+//	vector<int> v1;
+//	for (int i = 0; i < 10; i++) {
+//		v1.push_back(i);
+//	}
+//	vector<int> v2;
+//	for (int i = 9; i >= 0; i--) {
+//		v2.push_back(i);
+//	}
+//
+//	cout << "互换前：" << endl;
+//	printvec(v1);
+//	printvec(v2);
+//
+//	v1.swap(v2);
+//
+//	cout << "互换后：" << endl;
+//	printvec(v1);
+//	printvec(v2);
+//}
+//
+///*-----------内存收缩-----------*/
+//void test2() {
+//	vector<int> v;
+//	for (int i = 0; i < 10000; i++) {
+//		v.push_back(i);
+//	}
+//	cout << "容量为：" << v.capacity() << endl;
+//	cout << "大小为：" << v.size() << endl;
+//	cout << "-----------------------" << endl;
+//
+//	//重新指定大小
+//	v.resize(3);
+//	cout << "容量为：" << v.capacity() << endl;
+//	cout << "大小为：" << v.size() << endl;//大小变为3，但是容量没变，造成空间浪费
+//	cout << "-----------------------" << endl;
+//
+//	//收缩内存
+//	vector<int>(v).swap(v);
+//	cout << "容量为：" << v.capacity() << endl;
+//	cout << "大小为：" << v.size() << endl;
+//	cout << "-----------------------" << endl;
+//	/*
+//	vector<int>(); 默认构造匿名对象
+//	vector<int>(v);拷贝构造匿名对象
+//	*/
+//}
+//
+//int main() {
+//	test2();
+//}
+
 #include <iostream>
 #include <vector>
 using namespace std;
 
-void printvec(vector<int>& v) {
-	for (int i = 0; i < v.size(); i++) {
-		cout << v[i] << " ";
-	}
-	cout << endl;
-}
-
-/*----------元素互换------------*/
-void test1() {
-	vector<int> v1;
-	for (int i = 0; i < 10; i++) {
-		v1.push_back(i);
-	}
-	vector<int> v2;
-	for (int i = 9; i >= 0; i--) {
-		v2.push_back(i);
-	}
-
-	cout << "互换前：" << endl;
-	printvec(v1);
-	printvec(v2);
-
-	v1.swap(v2);
-
-	cout << "互换后：" << endl;
-	printvec(v1);
-	printvec(v2);
-}
-
-/*-----------内存收缩-----------*/
-void test2() {
+int main() {
 	vector<int> v;
+	v.reserve(10000);
+
+	int num = 0;//统计次数
+	int* p = NULL;
+
 	for (int i = 0; i < 10000; i++) {
 		v.push_back(i);
+
+		if (p != &v[0]) {//如果不执向容器的首地址，让p指向首地址
+			p = &v[0];//vector容器是动态开辟内存（寻找足够大的新内存，拷贝，释放旧内存）
+			num++;
+		}
 	}
-	cout << "容量为：" << v.capacity() << endl;
-	cout << "大小为：" << v.size() << endl;
-	cout << "-----------------------" << endl;
-
-	//重新指定大小
-	v.resize(3);
-	cout << "容量为：" << v.capacity() << endl;
-	cout << "大小为：" << v.size() << endl;//大小变为3，但是容量没变，造成空间浪费
-	cout << "-----------------------" << endl;
-
-	//收缩内存
-	vector<int>(v).swap(v);
-	cout << "容量为：" << v.capacity() << endl;
-	cout << "大小为：" << v.size() << endl;
-	cout << "-----------------------" << endl;
-	/*
-	vector<int>(); 默认构造匿名对象
-	vector<int>(v);拷贝构造匿名对象
-	*/
-}
-
-int main() {
-	test2();
+	cout << num << endl;
 }
