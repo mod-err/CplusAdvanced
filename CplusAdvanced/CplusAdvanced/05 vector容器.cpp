@@ -229,24 +229,24 @@
 //	test2();
 //}
 
-#include <iostream>
-#include <vector>
-using namespace std;
-
-int main() {
-	vector<int> v;
-	v.reserve(10000);
-
-	int num = 0;//统计次数
-	int* p = NULL;
-
-	for (int i = 0; i < 10000; i++) {
-		v.push_back(i);
-
-		if (p != &v[0]) {//如果不执向容器的首地址，让p指向首地址
-			p = &v[0];//vector容器是动态开辟内存（寻找足够大的新内存，拷贝，释放旧内存）
-			num++;
-		}
-	}
-	cout << num << endl;
-}
+//#include <iostream>
+//#include <vector>
+//using namespace std;
+//
+//int main() {
+//	vector<int> v;
+//	v.reserve(10000);
+//
+//	int num = 0;//统计次数
+//	int* p = NULL;
+//
+//	for (int i = 0; i < 10000; i++) {
+//		v.push_back(i);
+//
+//		if (p != &v[0]) {//如果不执向容器的首地址，让p指向首地址
+//			p = &v[0];//vector容器是动态开辟内存（寻找足够大的新内存，拷贝，释放旧内存）
+//			num++;
+//		}
+//	}
+//	cout << num << endl;
+//}

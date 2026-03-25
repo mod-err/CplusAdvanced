@@ -132,6 +132,9 @@
     <ClCompile Include="03 vector容器初识.cpp" />
     <ClCompile Include="04 string容器.cpp" />
     <ClCompile Include="05 vector容器.cpp" />
+    <ClCompile Include="06 deque容器.cpp" />
+    <ClCompile Include="07 STL案例-评委打分.cpp" />
+    <ClCompile Include="08 stack容器.cpp" />
     <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>
