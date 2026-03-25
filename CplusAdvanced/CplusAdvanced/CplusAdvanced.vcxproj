@@ -135,6 +135,8 @@
     <ClCompile Include="06 deque容器.cpp" />
     <ClCompile Include="07 STL案例-评委打分.cpp" />
     <ClCompile Include="08 stack容器.cpp" />
+    <ClCompile Include="09 queue容器.cpp" />
+    <ClCompile Include="10 list容量.cpp" />
     <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>
