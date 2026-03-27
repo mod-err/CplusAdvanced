@@ -138,6 +138,7 @@
     <ClCompile Include="09 queue容器.cpp" />
     <ClCompile Include="10 list容量.cpp" />
     <ClCompile Include="11 set容器.cpp" />
+    <ClCompile Include="12 map容器.cpp" />
     <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>

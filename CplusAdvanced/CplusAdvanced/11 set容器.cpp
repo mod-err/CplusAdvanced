@@ -192,32 +192,45 @@
 //	cout << "姓名：" << p1.first << " 年龄：" << p1.second << endl;
 //}
 
-#include<iostream>
-#include<set>
-
-using namespace std;
-
-//指定排序规则
-class mycompare {
-public:
-	bool operator()(int v1, int v2) const {
-		return v1 > v2;
-	}
-};
-
-int main() {
-
-	set<int, mycompare> s;
-
-	s.insert(50);
-	s.insert(20);
-	s.insert(30);
-	s.insert(10);
-	s.insert(40);
-
-	for (set<int, mycompare>::iterator it = s.begin(); it != s.end(); it++) {
-		cout << *it << " ";
-	}
-	cout << endl;
-}
-
+//#include<iostream>
+//#include<string>
+//#include<set>
+//
+//using namespace std;
+//
+//class Person {
+//public:
+//	Person(string name, int age) {
+//		this->name = name;
+//		this->age = age;
+//	}
+//	string name;
+//	int age;
+//};
+//
+////指定排序规则
+//class mycompare {
+//public:
+//	bool operator()(const Person& p1, const Person& p2) const {
+//		return p1.age > p2.age;
+//	}
+//};
+//
+//int main() {
+//
+//	set<Person, mycompare> s;
+//
+//	Person p1("刘备", 23);
+//	Person p2("关羽", 27);
+//	Person p3("张飞", 25);
+//	Person p4("赵云", 21);
+//
+//	s.insert(p1);
+//	s.insert(p2);
+//	s.insert(p3);
+//	s.insert(p4);
+//
+//	for (set<Person, mycompare>::iterator it = s.begin(); it != s.end(); it++) {
+//		cout << "姓名：" << (*it).name << "年龄：" << it->age << endl;
+//	}
+//}
