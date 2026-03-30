@@ -139,6 +139,8 @@
     <ClCompile Include="10 list容量.cpp" />
     <ClCompile Include="11 set容器.cpp" />
     <ClCompile Include="12 map容器.cpp" />
+    <ClCompile Include="13 STL案例-员工分组.cpp" />
+    <ClCompile Include="14 函数对象.cpp" />
     <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>

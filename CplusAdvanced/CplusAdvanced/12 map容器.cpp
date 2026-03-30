@@ -113,27 +113,27 @@
 //	printmap(m);
 //}
 
-#include<iostream>
-#include<map>
-
-using namespace std;
-
-class mycompare {
-public:
-	bool operator()(const int& m1, const int& m2) const {
-		return m1 > m2;
-	}
-};
-
-int main() {
-	map<int, int, mycompare> m;
-
-	m.insert(pair<int, int>(1, 10));
-	m.insert(pair<int, int>(2, 40));
-	m.insert(make_pair(3, 20));
-	m.insert(make_pair(4, 30));
-
-	for (map<int, int, mycompare>::iterator it = m.begin(); it != m.end(); it++) {
-		cout << "key = " << (*it).first << " value = " << it->second << endl;
-	}
-}
+//#include<iostream>
+//#include<map>
+//
+//using namespace std;
+//
+//class mycompare {
+//public:
+//	bool operator()(const int& m1, const int& m2) const {
+//		return m1 > m2;
+//	}
+//};
+//
+//int main() {
+//	map<int, int, mycompare> m;
+//
+//	m.insert(pair<int, int>(1, 10));
+//	m.insert(pair<int, int>(2, 40));
+//	m.insert(make_pair(3, 20));
+//	m.insert(make_pair(4, 30));
+//
+//	for (map<int, int, mycompare>::iterator it = m.begin(); it != m.end(); it++) {
+//		cout << "key = " << (*it).first << " value = " << it->second << endl;
+//	}
+//}

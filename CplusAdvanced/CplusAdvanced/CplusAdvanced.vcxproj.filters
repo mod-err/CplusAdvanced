@@ -54,6 +54,12 @@
     <ClCompile Include="12 map容器.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="13 STL案例-员工分组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14 函数对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">
