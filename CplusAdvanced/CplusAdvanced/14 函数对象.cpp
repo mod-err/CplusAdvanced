@@ -100,15 +100,69 @@
 //	printvector(v);
 //}
 
-#include<iostream>
-#include<functional>
+//#include<iostream>
+//#include<functional>
+//
+//using namespace std;
+//
+//int main() {
+//	negate<int> n;
+//	cout << n(10) << endl;
+//
+//	plus<int> p;
+//	cout << p(1, 2) << endl;
+//}
 
-using namespace std;
+//#include<iostream>
+//#include<vector>
+//#include<functional>
+//#include<algorithm>
+//
+//using namespace std;
+//
+//void printvector(vector<int> &v) {
+//	for (vector<int>::iterator it = v.begin(); it != v.end(); it++) {
+//		cout << *it << " ";
+//	}
+//	cout << endl;
+//}
+//
+//int main() {
+//	vector<int> v;
+//
+//	v.push_back(50);
+//	v.push_back(10);
+//	v.push_back(30);
+//	v.push_back(20);
+//	v.push_back(40);
+//
+//	sort(v.begin(), v.end(), greater<int>());
+//
+//	printvector(v);
+//}
 
-int main() {
-	negate<int> n;
-	cout << n(10) << endl;
-
-	plus<int> p;
-	cout << p(1, 2) << endl;
-}
+//#include<iostream>
+//#include<vector>
+//#include<algorithm>
+//#include<functional>
+//
+//using namespace std;
+//
+//int main() {
+//	vector<bool> v;
+//
+//	v.push_back(true);
+//	v.push_back(false);
+//	v.push_back(true);
+//	v.push_back(false);
+//
+//	vector<bool> v1;
+//	v1.resize(v.size());
+//
+//	transform(v.begin(), v.end(), v1.begin(), logical_not<bool>());
+//
+//	for (vector<bool>::iterator it = v1.begin(); it != v1.end(); it++) {
+//		cout << *it << " ";
+//	}
+//	cout << endl;
+//}

@@ -60,6 +60,12 @@
     <ClCompile Include="14 函数对象.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="15 常用遍历算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16 常用查找算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">
