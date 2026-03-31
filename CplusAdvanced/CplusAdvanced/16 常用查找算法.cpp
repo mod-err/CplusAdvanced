@@ -151,61 +151,124 @@
 //	}
 //}
 
-#include<iostream>
-#include<vector>
-#include<algorithm>//包含头文件
-#include<string>
+//#include<iostream>
+//#include<vector>
+//#include<algorithm>//包含头文件
+//#include<string>
+//
+//using namespace std;
+//
+//class Person {
+//public:
+//	Person(string name, int age) {
+//		this->name = name;
+//		this->age = age;
+//	}
+//	bool operator==(const Person& p) const {
+//		if (this->age == p.age) {
+//			return true;
+//		}
+//		else {
+//			return false;
+//		}
+//	}
+//	string name;
+//	int age;
+//};
+//
+//int main() {
+//	//统计内置数据类型
+//	vector<int> v;
+//	
+//	v.push_back(10);
+//	v.push_back(30);
+//	v.push_back(30);
+//	v.push_back(20);
+//	v.push_back(40);
+//
+//	int num = count(v.begin(), v.end(), 30);
+//	cout << "元素个数为" << num << endl;
+//
+//	//统计自定义数据类型
+//	vector<Person> v1;
+//
+//	Person p1("a", 10);
+//	Person p2("b", 20);
+//	Person p3("c", 30);
+//	Person p4("d", 20);
+//	Person p5("e", 20);
+//
+//	v1.push_back(p1);
+//	v1.push_back(p2);
+//	v1.push_back(p3);
+//	v1.push_back(p4);
+//	v1.push_back(p5);
+//
+//	Person pp("f", 20);
+//
+//	num = count(v1.begin(), v1.end(), pp);
+//	cout << "与f同岁的人的个数为" << num << endl;
+//}
 
-using namespace std;
-
-class Person {
-public:
-	Person(string name, int age) {
-		this->name = name;
-		this->age = age;
-	}
-	bool operator==(const Person& p) const {
-		if (this->age == p.age) {
-			return true;
-		}
-		else {
-			return false;
-		}
-	}
-	string name;
-	int age;
-};
-
-int main() {
-	//统计内置数据类型
-	vector<int> v;
-	
-	v.push_back(10);
-	v.push_back(30);
-	v.push_back(30);
-	v.push_back(20);
-	v.push_back(40);
-
-	int num = count(v.begin(), v.end(), 30);
-	cout << "元素个数为" << num << endl;
-
-	//统计自定义数据类型
-	vector<Person> v1;
-
-	Person p1("a", 10);
-	Person p2("b", 20);
-	Person p3("c", 30);
-	Person p4("d", 20);
-	Person p5("e", 20);
-
-	v1.push_back(p1);
-	v1.push_back(p2);
-	v1.push_back(p3);
-	v1.push_back(p4);
-	v1.push_back(p5);
-
-	Person pp("f", 20);
-
-	num = count(v1.begin(), v1.end(), pp);
-	cout << "与f同岁的人的个数为" << num << endl;
-}
+//#include<iostream>
+//#include<vector>
+//#include<algorithm>//包含头文件
+//#include<string>
+//
+//using namespace std;
+//
+//class Person {
+//public:
+//	Person(string name, int age) {
+//		this->name = name;
+//		this->age = age;
+//	}
+//	string name;
+//	int age;
+//};
+//
+//class Greater20 {
+//public:
+//	bool operator()(int val) {
+//		return val > 20;
+//	}
+//};
+//
+//class Ageless30 {
+//public:
+//	bool operator()(Person& p) {
+//		return p.age < 30;
+//	}
+//};
+//
+//int main() {
+//	//统计内置数据类型
+//	vector<int> v;
+//
+//	v.push_back(10);
+//	v.push_back(30);
+//	v.push_back(35);
+//	v.push_back(20);
+//	v.push_back(40);
+//
+//	int num = count_if(v.begin(), v.end(), Greater20());
+//	cout << "元素个数为：" << num << endl;
+//
+//	//统计自定义数据类型
+//	vector<Person> v1;
+//
+//	Person p1("a", 10);
+//	Person p2("b", 25);
+//	Person p3("c", 40);
+//	Person p4("d", 20);
+//	Person p5("e", 20);
+//
+//	v1.push_back(p1);
+//	v1.push_back(p2);
+//	v1.push_back(p3);
+//	v1.push_back(p4);
+//	v1.push_back(p5);
+//
+//	num = count_if(v1.begin(), v1.end(), Ageless30());
+//	cout << "年龄小于35的人的个数为：" << num << endl;
+//}

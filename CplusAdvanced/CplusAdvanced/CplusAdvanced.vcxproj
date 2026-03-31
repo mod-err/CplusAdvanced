@@ -143,6 +143,7 @@
     <ClCompile Include="14 函数对象.cpp" />
     <ClCompile Include="15 常用遍历算法.cpp" />
     <ClCompile Include="16 常用查找算法.cpp" />
+    <ClCompile Include="17 常用排序算法.cpp" />
     <ClCompile Include="person.cpp" />
   </ItemGroup>
   <ItemGroup>
