@@ -136,32 +136,3 @@
 //	for_each(v.begin(), v.end(), Myprint());//20 10 40 30
 //}
 
-//#include<iostream>
-//#include<vector>
-//#include<algorithm>
-//
-//using namespace std;
-//
-//class Myprint {
-//public:
-//	void operator()(int val) {
-//		cout << val << " ";
-//	}
-//};
-//
-//int main() {
-//	vector<int> v;
-//	v.push_back(30);
-//	v.push_back(40);
-//	v.push_back(10);
-//	v.push_back(20);
-//
-//	for_each(v.begin(), v.end(), Myprint());
-//	cout << endl;
-//
-//	vector<int> v1;
-//	v1.resize(v.size());//提前指定v1的大小
-//
-//	copy(v.begin(), v.end(), v1.begin());
-//	for_each(v.begin(), v.end(), Myprint());
-//}
